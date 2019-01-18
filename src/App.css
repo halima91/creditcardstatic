@@ -1,32 +1,60 @@
-.App {
+.App{
+  background: url(bgk.jpg);
+  color:white;
+  width:50%;
+  height:100%;
+  border-radius: 20px;
+  margin: 30px ;
+  padding:20px 20px;  
+background-repeat: no-repeat;
+display: flex;
+;
+
+}
+.title{
+margin-top: 2%;
+margin-left: 30%;
+  color:white;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+.image-puce{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.number{
+  background-color: #ffeaa7;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f7b731;
+  width:20rem;
+  text-align: center;
+  padding:5px ;
 }
+.small-number{
+  color:white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.cardholder{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;  
+}
+.firstapp{
+  margin-bottom: 30%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.second-part{
+  margin-top: 30%;
+  margin-right:30%;
+display:flex;
+justify-content: space-between;
+}
+.mastercard{
+  margin-top:40%;
+  margin-left:40%;
+}
+.valid{
+  font-weight: bold;
 }
